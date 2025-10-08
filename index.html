@@ -4,77 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Jenessa - My MERN Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
-    <nav>
-        <a href="#about">About Me</a> | 
-        <a href="#skills">Skills</a> | 
-        <a href="#goals">Goals</a> |
-        <a href="#contact">Contact</a>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#">Jenessa's MERN Journey</a>
+            </div>
+            <div class="nav-menu">
+                <a href="#about" class="nav-link">About Me</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#goals" class="nav-link">Goals</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
     </nav>
 
     <!-- Header -->
-    <header>
-        <h1>Welcome to My MERN Journey! 🚀</h1>
-        <p>Hi, I'm Jenessa Marie D. Aloba</p>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My MERN Journey! 🚀</h1>
+            <p>Hi, I'm Jenessa Marie D. Aloba</p>
+            <p class="hero-subtitle">Aspiring Full-Stack Developer</p>
+            <a href="#about" class="cta-button">Learn More About Me</a>
+        </div>
+        <div class="hero-image">
+            <div class="code-icon">💻</div>
+        </div>
     </header>
 
     <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I'm starting my journey to become a full-stack developer learning the MERN stack!</p>
-        <p>This is my Day 2 of building front-end foundations before diving into React.</p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm starting my journey to become a full-stack developer learning the MERN stack!</p>
+                    <p>This is my Day 2 of building front-end foundations before diving into React.</p>
+                    <p>I'm passionate about creating beautiful, functional web applications and excited to expand my skills in modern web development technologies.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>Day 3</h3>
+                        <p>Learning CSS & Flexbox</p>
+                    </div>
+                    <div class="stat">
+                        <h3>MERN Stack</h3>
+                        <p>My Learning Path</p>
+                    </div>
+                    <div class="stat">
+                        <h3>Front-End</h3>
+                        <p>Current Focus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills I'm Learning</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-            <li>Git & GitHub</li>
-            <li>Node.js</li>
-            <li>React (coming soon!)</li>
-        </ul>
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills I'm Learning</h2>
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">📄</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Building the structure and styling of web pages</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚡</div>
+                    <h3>JavaScript</h3>
+                    <p>Adding interactivity and functionality</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 60%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📚</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control and collaboration</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🟢</div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript runtime</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 30%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h3>React</h3>
+                    <p>Front-end library (coming soon!)</p>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 10%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Goals Section -->
-    <section id="goals">
-        <h2>My Learning Goals</h2>
-        <ol>
-            <li>Master front-end foundations (HTML, CSS, JS)</li>
-            <li>Learn React and build interactive UIs</li>
-            <li>Understand back-end with Node.js and Express</li>
-            <li>Work with databases (MongoDB)</li>
-            <li>Build full-stack applications</li>
-        </ol>
+    <section id="goals" class="section">
+        <div class="container">
+            <h2 class="section-title">My Learning Goals</h2>
+            <div class="goals-container">
+                <div class="goal-item">
+                    <div class="goal-number">1</div>
+                    <div class="goal-content">
+                        <h3>Master Front-End Foundations</h3>
+                        <p>HTML, CSS, and JavaScript fundamentals</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">2</div>
+                    <div class="goal-content">
+                        <h3>Learn React</h3>
+                        <p>Build interactive user interfaces</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">3</div>
+                    <div class="goal-content">
+                        <h3>Understand Back-End</h3>
+                        <p>Node.js and Express framework</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">4</div>
+                    <div class="goal-content">
+                        <h3>Work with Databases</h3>
+                        <p>MongoDB and data modeling</p>
+                    </div>
+                </div>
+                <div class="goal-item">
+                    <div class="goal-number">5</div>
+                    <div class="goal-content">
+                        <h3>Build Full-Stack Applications</h3>
+                        <p>Complete MERN stack projects</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
-        <h2>Connect With Me</h2>
-        <p>Follow my learning journey on GitHub:</p>
-        <a href="https://github.com/maxskrt011724" target="_blank">Visit My GitHub Profile</a>
-        
-        <h3>Send Me a Message</h3>
-        <form>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
-            
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-            
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
-            
-            <input type="submit" value="Send Message">
-        </form>
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Follow My Learning Journey</h3>
+                    <p>Check out my progress and projects on GitHub:</p>
+                    <a href="https://github.com/maxskrt011724" target="_blank" class="github-link">
+                        <span class="github-icon">🐙</span> Visit My GitHub Profile
+                    </a>
+                    <div class="social-links">
+                        <p>You can also find me on:</p>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="Your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Jenessa's MERN Journey. Built with 💻 and ❤️</p>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Jenessa's MERN Journey. Built with 💻 and ❤️</p>
+            <p>Day 3: Learning CSS Layout with Flexbox</p>
+        </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
